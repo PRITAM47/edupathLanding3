@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>EDUPATH</title>
+
+
+    <style>
+      ul {
+        list-style-image: url("images/arrow.png");
+       
+        
+      }
+
+
+      ul li{
+        margin-top: 1em;
+      }
+    </style>
+
+    <!-- ------FAV ICON------- -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- --------BOOTSTRAP CSS------- -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+
+    <!-- -------FONT AWESOME------ -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.css" />
+
+    <!-- ------CSS STYLES------- -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- --------HEADER STARTS------- -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/logo1.png" alt=""
+        /></a>
+      </nav>
+    </header>
+    <!-- --------HEADER ENDS------- -->
+
+    <div class="main-section container-fluid">
+      <div class="row">
+        <div class="right-section col-md-7 col-sm-12 col-12" style="background:transparent;">
+          <!-- <h2>More than a Degree...</h2> -->
+          <h2> <span style="padding-left:0.5em;">a Foundation</span> </h2>
+          <h2 id="right-head">for your Future</h2>
+
+          <!-- <div class="sub-section" style="font-weight:bold;">
+            <p>Educating Students For Success</p>
+            <p>in a Challenging World</p>
+
+          </div> -->
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="left-section col-md-5 col-sm-12 col-12 " style="border-radius:30px;">
+          <h2>READY TO STUDY ABROAD</h2>
+          <p>For study options, courses, fill in your details and one of our friendly advisor will get in touch with you.</p>
+
+          <div class="form-section" >
+            <form action="#" method="POST">
+              <!-- --------FIRST ROW STARTS---------- -->
+              <div class="row">
+                <div class="col-md-6 col-sm-12 col-12">
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    name="firstName"
+                    id="firstName"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    name="lastName"
+                    id="lastName"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- --------FIRST ROW ENDS---------- -->
+
+              <!-- --------SECOND ROW STARTS---------- -->
+              <div class="row">
+                <div
+                  class="col-md-6 col-sm-12 col-12"
+                  style="color: #d1d4d9; margin-top: 10px; padding-left: 20px; margin-bottom: 2px;"
+                >
+                  <label for="gender">GENDER :</label>
+                  <input type="radio" name="gender" id="gender" value="male" />
+                  <label for="checkbox1">Male</label>
+
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="gender"
+                    value="female"
+                  />
+                  <label for="checkbox2">Female</label>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                  <input
+                    type="text"
+                    placeholder="Mobile No."
+                    name="mobileNumber"
+                    id="mobileNumber"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- --------SECOND ROW ENDS---------- -->
+
+              <!-- --------THIRD ROW STARTS---------- -->
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email ID"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- --------THIRD ROW ENDS---------- -->
+
+              <!-- --------FOURTH ROW STARTS---------- -->
+              <div class="row">
+                <div class="col-md-6 col-sm-12 col-12">
+                  <input
+                    type="text"
+                    name="currentStudy"
+                    id="currentStudy"
+                    placeholder="Current Highest Study"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                  <input
+                    type="text"
+                    name="futureStudy"
+                    id="futureStudy"
+                    placeholder="Future Study Program"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- --------FOURTH ROW ENDS---------- -->
+
+              <!-- --------FIFTH ROW STARTS---------- -->
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-12">
+                  <input
+                    type="text"
+                    name="location"
+                    id="location"
+                    placeholder="Location"
+                    required
+                  />
+                </div>
+              </div>
+              <!-- --------FIFTH ROW ENDS---------- -->
+
+              <!-- --------SIXTH ROW STARTS---------- -->
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-12">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="6"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+              </div>
+              <!-- --------SIXTH ROW ENDS---------- -->
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="formAccept" required>
+                <label class="form-check-label" for="formAccept">I accept all the terms and conditions.</label>
+              </div>
+              <input
+                type="submit"
+                class="btn "
+                value="SUBMIT"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------SECOND SECTION----------------------- -->
+    <div class="second-section container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 col-12">
+            <div class="card" style="width: 100%;">
+                <img src="images/graduation.png" class="" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">WHY STUDY ABROAD ?</h5>
+                  <!-- <div><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i></div><div><p class="card-text" style="display:inline-block;"> Up to 4 years Post-Study Work Rights</p></div>
+                  
+                  <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> 40 hours of part time work allowed over a fortnight</p>
+                  <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> Up to 100% scholarships</p>
+                  <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> Pathways for bachelor and mastersprograms in all major places</p>
+     -->
+                    <ul>
+                      <li><p class="card-text"> Up to 4 years Post-Study Work Rights</p></li>
+                      <li><p class="card-text">Up to 100% scholarships</p></li>
+                      <li><p class="card-text"> 40 hours of part time work allowed over a fortnight</p></li>
+                      <li><p class="card-text">  Pathways for bachelor and masters programs in all major places</p></li>
+                    </ul>
+                  
+                </div>
+              </div>
+
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-12">
+            <div class="card" style="width: 100%;">
+                <img src="images/check.png" class="my-image" style="" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">WHY TO ATTEND ?</h5>
+                  <!-- <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> Meet with University  officers</p>
+                  <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> Create a strong profile to enhance the chances of admission</p>
+                  <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> Get your academic documents assessed by admission officers</p>
+                  <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> Apply to eligible universities</p> -->
+
+                  <ul>
+                      <li><p class="card-text"> Meet with University  officers</p></li>
+                      <li><p class="card-text">Create a strong profile to enhance the chances of admission</p></li>
+                      <li><p class="card-text">Get your academic documents assessed by admission officers</p></li>
+                      <li><p class="card-text"> Apply to eligible universities</p></li>
+                    </ul>
+
+                  
+                </div>
+              </div>
+
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-12">
+              <div class="card" style="width: 100%;">
+                  <img src="images/counselling.png" style="border-radius:50%;" class="my-image" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">COUNSELLING WITH EXPERTS</h5>
+                    <!-- <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> Meet with official University representatives</p>
+                    <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> Understand course offerings, graduate outcomes</p>
+                    <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> Provide best way to choose career path</p>
+                    <p class="card-text"><i class="fas fa-arrow-right" style="color:#ffb606; margin-right: 0.5em;"></i> </p>
+       -->
+                    <ul>
+                        <li><p class="card-text"> Meet with official University representatives</p></li>
+                        <li><p class="card-text">Understand course offerings, graduate outcomes</p></li>
+                        <li><p class="card-text">Provide best way to choose career path</p></li>
+                        <!-- <li><p class="card-text"> Apply to eligible universities</p></li> -->
+                      </ul>
+  
+                    
+                  </div>
+               
+
+            </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-section " style="color: #fff">
+        <footer class="row">
+            <div class="col-md-6 col-sm-12 col-12">
+                <span style="color:darkorange; margin-left: 8em;">Edupath</span> Copyright &copy; 2019 All Right Reserved.
+            </div>
+            <div class=" icons">
+                <i class="fab fa-facebook-square fa-2x"></i><i class="fab fa-twitter-square fa-2x"></i><i class="fab fa-instagram fa-2x"></i>
+            
+          </footer>
+    </div>
+    
+
+
+    <!-- --------SCRIPTS-------------- -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SCRIPTS -->
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
